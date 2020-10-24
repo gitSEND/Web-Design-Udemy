@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menus de Navegacion</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, 
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+	<div class="container">
+		<h2>Menu de Navegacion</h2>
+
+		<!-- Menu de Navegacion -->
+		
+		<!-- Podemos convertir nuestro menu en un menu fijo con la clase .navbar-fixed-top y .navbar-fixed-bottom 
+
+		Si hacemos eso tenemos que agregarle al body un padding-top de 70px.
+		-->
+
+		<!-- Podemos tener un menu del 100% eliminando el contenedor exterior, y agregando la clase navbar-static-top -->
+
+		<!-- Tambien podemos cambiar el menu a un tono oscuro mediante .navbar-inverse -->
+
+
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<!-- Header del Menu en dispositivos moviles -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+						<span class="sr-only">Alternar Menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				
+					<!-- Brand / Nombre del sitio -->
+					<a href="#" class="navbar-brand">FalconMasters</a>
+				</div>
+				
+				<!-- Links del Menu -->
+				<div class="collapse navbar-collapse" id="navbar1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Inicio</a></li>
+						<li><a href="#">Blog</a></li>
+				
+						<!-- Submenu -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Productos <span class="caret"></span></a>
+				
+							<ul class="dropdown-menu">
+								<li><a href="#">Lorem ipsum.</a></li>
+								<li><a href="#">Lorem ipsum.</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Lorem ipsum.</a></li>
+							</ul>
+						</li>
+					</ul>
+						<!-- Formulario / Barra de Busqueda -->
+						<form action="" class="navbar-form navbar-left">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Buscar">
+								<button type="submit" class="btn btn-default">
+									Buscar
+								</button>
+							</div>
+						</form>
+				</div>
+			</div>
+		</nav>
+	</div>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

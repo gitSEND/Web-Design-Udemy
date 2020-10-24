@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Funciones</title>
+</head>
+<body>
+	<script>
+		// Las funciones son bloques de codigo que son utiles cuando queremos utilizar un codigo varias veces.
+		//Las funciones nos permiten reutilizar bloques de codigo.
+
+// ----- Estructura de una funcion
+		function nombre(argumento1, argumento2){
+			//Codigo que ejecutaremos cada que llamemos la funcion.
+		}
+
+// ----- Ejemplo de suma sin funcion
+		// var numero1 = 10;
+		// var numero2 = 5;
+		// var resultado = numero1 + numero2;
+
+		// document.write(resultado);
+		// document.write('<br >');
+
+		// numero1 = 7;
+		// numero2 = 3;
+		// resultado = numero1 + numero2;
+
+		// document.write(resultado);
+
+// ----- Funcion para sumar numeros
+		// function suma(numero1, numero2){
+		// 	document.write(numero1 + numero2);
+		// 	document.write('<br>');
+		// }
+
+		// suma(10,7);
+		// suma(2,3);
+		// suma(1,13);
+
+// ----- Sentencia Return
+		// function suma(numero1, numero2){
+		// 	var resultado = numero1 + numero2;
+		// 	return resultado;
+		// }
+
+		// document.write(suma(10,7));
+
+// ----- Segunda forma de nombrar funciones
+		var suma = function(numero1, numero2){
+			return numero1 + numero2;
+		};
+
+		document.write(suma(5,2));
+
+// ----- Funciones autoinvocadas
+		// Son funciones que se ejecutan automaticamente.
+		// Muchas veces las vamos a utilizar para proteger nuestro codigo y que codigo de terceros no acceda a nuestras variables, funciones, etc.
+		
+		// (function(){
+		// 	alert('Hola');
+		// }());
+
+	</script>
+</body>
+</html>

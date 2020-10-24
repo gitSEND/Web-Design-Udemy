@@ -1,0 +1,20 @@
+body {
+	font-family: sans-serif, Helvetica, Arial;
+}
+
+h1 {
+	font-family: "Times New Roman", Arial;
+	/* font-style: normal | italic;*/
+	font-size:20px;
+	font-style: italic;
+	font-weight: bold;
+	color:#4281ed;
+	text-align: center;
+	text-decoration: underline;
+	text-transform:uppercase;
+	letter-spacing: 10px;
+}
+
+p {
+	line-height: 30px;
+}

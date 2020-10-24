@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Eventos de Tiempo</title>
+</head>
+<body>
+	<button id="btn-iniciar">Iniciar</button>
+	<button id="btn-parar">Parar</button>
+	<script>
+		// setTimeout() - Ejecuta una funcion despues de cierto tiempo.
+		// setInterval() - Ejecuta una funcion cada cierto tiempo.
+
+// ----- setTimeout()
+		function saludo(){
+			alert('Hola Mundo');
+		}
+
+		// var tiempo = setTimeout(saludo, 5000);
+
+		// Paramos la ejecucion.
+		// clearTimeout(tiempo);
+
+		// document.getElementById('btn-iniciar').addEventListener('click', function(){
+		// 	setTimeout(saludo, 1000);
+		// });
+
+// ----- setInterval()
+		var intervalo = setInterval(saludo, 3000);
+
+		var botonParar = document.getElementById('btn-parar');
+		botonParar.addEventListener('click', function(){
+			clearInterval(intervalo);
+		});
+
+
+	</script>
+</body>
+</html>

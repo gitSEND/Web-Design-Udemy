@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tablas</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<!-- .table-striped Nos permite alternar colores entre cada fila -->
+				<!-- .table-bordered Nos permite agregarle bordes a la tabla -->
+				<!-- .table-hover Nos permite agregarle un hover a las filas -->
+				<!-- .table-dark Nos permite cambiar los colores de la tabla a osucors -->
+				<!-- .table-sm Nos permite hacer la tabla mas pequeña eliminando paddings -->
+				<!-- .table-responsive-xx Nos permite adaptar nuestra tabla a dispositivos moviles -->
+				<table class="table table-sm table-hover table-bordered table-responsive-lg">
+					<thead>
+						<tr>
+							<th>Nombre</th>
+							<th>Edad</th>
+							<th>Pais</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<!-- .table-active -->
+						<!-- .table-success -->
+						<!-- .table-warning -->
+						<!-- .table-danger -->
+						<!-- .table-info -->
+						<tr class="table-success">
+							<td>Carlos</td>
+							<td>21</td>
+							<td>Mexico</td>
+						</tr>
+	
+						<!-- .bg-primary -->
+						<!-- .bg-success -->
+						<!-- .bg-warning -->
+						<!-- .bg-danger -->
+						<!-- .bg-info -->
+						<tr class="bg-primary text-white">
+							<td>Alejandro</td>
+							<td>34</td>
+							<td>España</td>
+						</tr>
+						<tr>
+							<td>Cesar</td>
+							<td>37</td>
+							<td>Colombia</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

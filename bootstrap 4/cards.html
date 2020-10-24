@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cards</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col">
+				<div class="card">
+					<div class="card-body">
+						<h1 class="mb-3">Encabezado</h1>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Clases que podemos utilizar
+		.card 					Establecemos que trabajaremos con una tarjeta (card)
+			.card-body 		Establecemos cual sera el contenedor del contenido
+				.card-title 	Establecemos el un texto como titulo de la card
+				.card-subtitle 	Establecemos un subtitulo para la card
+				.card-text 		Establecemos el texto de la card.
+				.card-link  	Establecemos un enlace como boton en la card
+			.card-img-top 		Establecemos una imagen para la card en la parte superior
+			.card-img-bottom 	Establecemos una imagen para la card en la parte inferior
+		-->
+
+		<div class="row mt-3">
+			<div class="col-6">
+				<div class="card">
+					<img src="img/bg.jpg" class="card-img-top img-fluid" alt="">
+					<div class="card-body">
+						<h3 class="card-title">Titulo</h3>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium similique vero perferendis dolorem in libero id omnis, esse nesciunt corrupti?</p>
+						<a href="#" class="btn btn-primary btn-lg btn-block">Boton</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="card">
+					<img src="img/bg.jpg" class="card-img-top img-fluid" alt="">
+					<div class="card-body">
+						<h3 class="card-title">Titulo</h3>
+						<p class="card-subtitle text-muted mb-2">Subtitulo</p>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium similique vero perferendis dolorem in libero id omnis, esse nesciunt corrupti?</p>
+						<a href="#" class="card-link">Enlace #1</a>
+						<a href="#" class="card-link">Enlace #2</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row mt-3">
+			<div class="col">
+				<div class="card">
+					<div class="card-header">
+						Encabezado de la Card
+					</div>
+					<div class="card-body">
+						<h3 class="card-title">Lorem ipsum dolor.</h3>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quibusdam.</p>
+						<a href="#" class="btn btn-primary">Ir al post</a>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card">
+					<div class="card-body text-center">
+						<h3 class="card-title">Lorem ipsum dolor.</h3>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quibusdam.</p>
+						<a href="#" class="btn btn-primary">Ir al post</a>
+					</div>
+					<div class="card-footer">
+						Encabezado de la Card
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row my-3">
+			<div class="col">
+				<div class="card bg-primary text-white">
+					<div class="card-body">
+						<h3 class="card-title">Lorem ipsum dolor.</h3>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quibusdam.</p>
+						<a href="#" class="btn btn-primary">Ir al post</a>
+						<a href="#" class="btn btn-light">Ir al post</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card text-white bg-success">
+					<div class="card-body">
+						<h3 class="card-title">Lorem ipsum dolor.</h3>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quibusdam.</p>
+						<a href="#" class="btn btn-dark">Ir al post</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card border-primary">
+					<div class="card-body">
+						<h3 class="card-title">Lorem ipsum dolor.</h3>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quibusdam.</p>
+						<a href="#" class="btn btn-primary">Ir al post</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card border-success">
+					<div class="card-body">
+						<h3 class="card-title">Lorem ipsum dolor.</h3>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, quibusdam.</p>
+						<a href="#" class="btn btn-success">Ir al post</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

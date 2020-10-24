@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ciclo For</title>
+</head>
+<body>
+	<script>
+// ----- Ciclo for
+		// Iniciacion - Se ejecuta antes de que inicie el ciclo.
+		// Condicion - Define si se seguira ejecutando el ciclo o no.
+		// Actualizacion - Se ejecuta despues de cada ejecucion del codigo.
+
+		// for(inicialización; condicion; actualizacion){
+		// 	Codigo a repetirse mientras la condicion sea verdadera
+		// }
+
+// ----- Ciclo del 1 al 10
+		// for (var i = 1; i <= 10; i++) {
+		// 	document.write(i);
+		// 	document.write('<br>');
+		// };
+
+// ----- Ciclo del 10 al 1
+		// for(var i = 10; i >= 0; i--){
+		// 	document.write(i);
+		// 	document.write('<br>');
+		// }
+
+// ----- Ciclo para recorrer un arreglo mediante for
+// var meses = ['Enero', 'Febrero', 'Marzo', 'Abril',
+// 			'Mayo', 'Junio', 'Julio', 'Agosto',
+// 			'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+
+// 			for(var i = 0; i < meses.length; i++){
+// 				document.write(i+1 + '.- ' + meses[i]);
+// 				document.write('<br>');
+// 			}
+
+// ----- Ciclo para recorrer un arreglo mediante for in
+var meses = ['Enero', 'Febrero', 'Marzo', 'Abril',
+			'Mayo', 'Junio', 'Julio', 'Agosto',
+			'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+
+		for (mes in meses) {
+			document.write(meses[mes]);
+			document.write('<br>');
+		}
+
+	</script>
+</body>
+</html>

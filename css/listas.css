@@ -1,0 +1,42 @@
+body {font-family: Arial;}
+
+/*
+Graficos:
+list-style: none | disc | circle | square
+
+Numericos:
+list-style: decimal | decimal-leading-zeo | lower-roman | upper-roman |
+			lower-latin | upper-latin
+*/
+ul {
+	list-style: square;
+	/*padding: 0;*/
+	list-style-image: url('img/checked.png');
+}
+
+ol {
+	list-style: upper-latin;
+}
+
+.menu {
+	background: #4357ad;
+	width: 200px;
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+.menu li {
+	border-bottom:1px solid rgba(255,255,255, .3);
+}
+
+.menu li a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color:#fff;
+}
+
+.menu li a:hover {
+	background: #4888d6;
+}

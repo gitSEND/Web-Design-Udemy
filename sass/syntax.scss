@@ -1,0 +1,20 @@
+// Esta syntax es mas nueva pero utiliza { } y ;
+
+body {
+	background: #f2f2f2;
+}
+
+.articulo {
+	background: #fff;
+	.titulo {
+		color: #000;
+	}
+	.fecha {
+		// estilos
+	}
+	p {
+		a {
+			text-decoration: none;
+		}
+	}
+}

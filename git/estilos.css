@@ -1,0 +1,22 @@
+body {
+	background: #0D2C44;
+	font-family: Arial, Sans-serif;
+}
+
+main {
+	width: 80%;
+	max-width: 500px;
+	padding: 20px;
+	background: #f2f2f2;
+}
+
+main .btn {
+	background: #BB1F35;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+main .btn:hover {
+	text-decoration: underline;
+}

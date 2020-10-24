@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Responsive Utilities</title>
+	<style>
+		.columna {
+			background: #2191fb;
+			color: #fff;
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Medidas de bootstrap:
+		.col 		Extra Pequeño (Extra Small) - Smartphones Vertical		Menos de 544px
+		.col-sm 	Pequeño (Small) - Smartphones Vertical	 				Mas de 544px y Menos de 768px
+		.col-md 	Mediano (Medium) - Tablets 								Mas de 768px y Menos de 992px
+		.col-lg 	Largo (Large) - Computadoras							Mas de 992px y Menos de 1200px
+		.col-xl 	Extra Largo (Extra Large) - Computadoras				Mas de 1200px
+ -->
+	<div class="container">
+		<div class="row">
+			<div class="columna col d-block d-sm-none">XS - Extra Small</div>
+			<div class="columna col d-none d-sm-block d-md-none">SM - Small</div>
+			<div class="columna col d-none d-md-block d-lg-none">MD - Medium</div>
+			<div class="columna col d-none d-lg-block d-xl-none">LG - Large</div>
+			<div class="columna col d-none d-xl-block">XL - Extra Large</div>
+		</div>
+	</div>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

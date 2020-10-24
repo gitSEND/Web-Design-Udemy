@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fechas y Tiempo</title>
+</head>
+<body>
+	<p id="fecha"></p>
+	<script>
+		var fecha = new Date();
+		var parrafo = document.getElementById('fecha');
+		// document.write(fecha);
+
+		function mostrarTiempo(){
+			var fecha = new Date();
+			parrafo.innerHTML = fecha;
+		}
+
+		// var intervalo = setInterval(mostrarTiempo, 1000);
+
+// -----
+		console.log(fecha.getHours() - 12 + ' Horas');
+		console.log(fecha.getMinutes() + ' Minutos');
+		console.log(fecha.getSeconds() + ' Segundos');
+
+		var semana = ['Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado'];
+		console.log(semana[fecha.getDay()]);
+
+		console.log('Dia: ' + fecha.getDate());
+
+		console.log('Mes: ' + fecha.getMonth());
+		console.log('Año: ' + fecha.getFullYear());
+
+	</script>
+</body>
+</html>

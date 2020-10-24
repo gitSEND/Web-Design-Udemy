@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, 
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+	<!-- Nota:
+		- Solo los inputs que tengan el type declarado tendran estilos correctamente.
+	 -->
+
+	<div class="container">
+		<!-- Formulario Basico -->
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Formulario Basico</h2>
+				<br>
+
+				<form action="">
+					<div class="form-group">
+						<label for="nombre">Nombre:</label>
+						<input class="form-control" type="text" id="nombre" placeholder="Nombre">
+					</div>
+
+					<div class="form-group">
+						<label for="correo">Correo:</label>
+						<input class="form-control" type="email" id="correo" placeholder="Correo">
+					</div>
+
+					<button class="btn btn-primary" type="submit">Enviar</button>
+				</form>
+			</div>
+		</div>
+
+		<hr>
+
+		<!-- Formulario Inline -->
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Formulario Inline</h2>
+				<br>
+
+				<form class="form-inline" action="">
+					<div class="form-group">
+						<label for="nombre">Nombre:</label>
+						<input class="form-control" type="text" id="nombre" placeholder="Nombre">
+					</div>
+
+					<div class="form-group">
+						<label for="correo">Correo:</label>
+						<input class="form-control" type="email" id="correo" placeholder="Correo">
+					</div>
+
+					<button class="btn btn-primary" type="submit">Enviar</button>
+				</form>
+			</div>
+		</div>
+
+		<hr>
+
+		<!-- Formulario Horizontal -->
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Formulario Horizontal</h2>
+				<br>
+
+				<form class="form-horizontal" action="">
+					<div class="form-group">
+						<label class="col-sm-2" for="nombre">Nombre:</label>
+						<div class="col-sm-10">
+							<input class="form-control" type="text" id="nombre" placeholder="Nombre">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-2" for="correo">Correo:</label>
+						<div class="col-sm-10">
+							<input class="form-control" type="email" id="correo" placeholder="Correo">
+						</div>
+					</div>
+
+					<button class="btn btn-primary" type="submit">Enviar</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

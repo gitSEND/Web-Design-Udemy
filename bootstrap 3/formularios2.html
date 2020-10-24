@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios 2</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, 
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<!-- Checkbox y Radios -->
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Checkbox y Radios</h2>
+				<form action="">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="">
+							Lorem ipsum dolor sit amet.
+						</label>
+					</div>
+					<div class="checkbox disabled">
+						<label>
+							<input type="checkbox" value="" disabled>
+							Tempore, placeat!
+						</label>
+					</div>
+
+					<div class="radio">
+						<label>
+							<input type="radio" name="sexo" value="">
+							Hombre
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" name="sexo" value="">
+							Mujer
+						</label>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<hr>
+
+		<!-- Inline Checkboxe y Radios -->
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Inline Checkboxes y Radios</h2>
+
+				<form action="">
+					<label class="checkbox-inline">
+						<input type="checkbox" value="">
+						Lorem ipsum dolor sit amet.
+					</label>
+					<label class="checkbox-inline">
+						<input type="checkbox" value="" disabled>
+						Tempore, placeat!
+					</label>
+
+					<br><br>
+
+					<label class="radio-inline">
+						<input type="radio" name="sexo" value="">
+						Hombre
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="sexo" value="">
+						Mujer
+					</label>
+				</form>
+			</div>
+		</div>
+
+		<hr>
+
+		<!-- Select -->
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Select Input</h2>
+				<form action="">
+					<select class="form-control" name="">
+						<option value="mexico">Mexico</option>
+						<option value="espana">España</option>
+						<option value="colombia">Colombia</option>
+					</select>
+				</form>
+			</div>
+		</div>
+
+		<hr>
+		
+		<!-- Inputs -->
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Select Input</h2>
+				<form action="">
+					<!-- .readonly -->
+					<div class="form-group">
+						<input class="form-control disabled" type="text" placeholder="Input" readonly>
+					</div>
+
+					<!-- .has-warning -->
+					<div class="form-group has-warning">
+						<input class="form-control" type="text" placeholder="Input">
+					</div>
+
+					<div class="form-group has-error">
+						<!-- .has-error -->
+						<input class="form-control" type="text" placeholder="Input">
+					</div>
+
+					<div class="form-group has-success">
+						<!-- .has-success -->
+						<input class="form-control" type="text" placeholder="Input">
+					</div>
+				</form>
+			</div>
+		</div>
+
+	</div>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

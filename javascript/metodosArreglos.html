@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Metodos y Propiedades para Arreglos</title>
+</head>
+<body>
+	<script>
+
+		var amigos = ['Carlos', 'Alejandro', 'Cesar', 'Manuel'];
+
+// ----- Metodo Length
+		// Length nos permite conocer cuantos elementos tiene un arreglo.
+		// document.write(amigos.length);
+
+// ----- Metodo Join		
+		// document.write(amigos.join('-'));
+
+		// var cadenaAmigos = amigos.join(' ** ');
+		// document.write(cadenaAmigos);
+
+// ----- Metodo Pop y Push
+		// Pop nos permite eliminar el ultimo elemento de un arreglo.
+		// Push nos permite agregar un elemento al final de un arreglo.
+
+		// amigos.pop();
+		// amigos.push('Luis');
+
+		// console.log(amigos);
+
+// ----- Metodo shift y unshift
+		// Shift nos permite eliminar el primer elemento del arreglo.
+		// Unshift nos permite agregar un elemento al inicio del arreglo.
+
+		// amigos.shift();
+		// amigos.unshift('Felipe');
+		// console.log(amigos);
+
+// ----- Metodo concat
+
+		// var amigos2 = ['Felipe', 'Luis'];
+
+		// var todosMisAmigos = amigos.concat(amigos2);
+		// document.write(todosMisAmigos);
+
+// ----- Metodo Sort y Reverse
+		// Sort nos permite ordenar alfabeticamente un arreglo.
+		// Reverse nos permite cambiar el orden de los elementos.
+
+		// Nota: sort no funciona para ordenar numeros, solo cadenas de texto.
+		amigos.sort();
+		amigos.reverse();
+
+		console.log(amigos);
+
+	</script>
+</body>
+</html>

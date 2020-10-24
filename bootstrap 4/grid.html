@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Grid</title>
+	<style>
+		
+		.row > div {
+			background: #f2f2f2;
+			margin-top:20px;
+		}
+	</style>
+</head>
+<body>
+	<!-- El container es el contenedor principal, en el iran todas las filas y columnas -->
+	<!-- Con el container podemos centrar nuestra pagina -->
+	<div class="container">
+		<!-- Las filas (row) son grupos HORIZONTALES de columnas-->
+		<div class="row">
+			<!-- Todo el contenido debe ir dentro de columnas (col) -->
+			<!-- Y las columnas deben ir directamente dentro de las filas (row) -->
+
+			<!-- NUEVO:
+					Los tamaños de Columna en Bootsrap 4 son:
+					.col 		Extra Pequeño (Extra Small) - Smartphones Vertical		Menos de 544px
+					.col-sm 	Pequeño (Small) - Smartphones Vertical	 				Mas de 544px y Menos de 768px
+					.col-md 	Mediano (Medium) - Tablets 								Mas de 768px y Menos de 992px
+					.col-lg 	Largo (Large) - Computadoras							Mas de 992px y Menos de 1200px
+					.col-xl 	Extra Largo (Extra Large) - Computadoras				Mas de 1200px
+			 -->
+			<div class="col-6 col-sm-8">
+				<h1>Columna 1</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			</div>
+
+			<div class="col-4">
+				<h1>Columna 2</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			</div>
+
+			<div class="col-12">
+				<h1>Columna 3</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

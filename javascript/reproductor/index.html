@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reproductor de Video Personalizado</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="reproductor">
+			<video id="video" class="video" src="../media/keyboard.mp4">
+				<p>Tu navegador no soporta videos en HTML5, por favor actualizalo.</p>
+			</video>
+
+			<div class="controles">
+				<input type="range" class="tiempo" id="tiempo" min="0" value="0" step="0.1">
+				<button class="btn play" id="btnPlay"><span id="icono" class="fa fa-play"></span></button>
+				<input type="range" class="volumen" id="volumen" min="0" max="1" step="0.01" value="1">
+			</div>
+		</div>
+	</div>
+
+	<script src="reproductor.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Variables</title>
+</head>
+<body>
+	<!-- 
+		- Las variables son espacios de memoria que podemos usar
+		  para almacenar informacion temporalmente.
+
+		- Las variables pueden almacenar numeros, texto entre otros.
+
+		- Las variables en javascript se declaran mediante la palabra var y
+		solo se debe utilizar cuando se escribe la variable por primera vez
+
+		- Al nombre de una variable se le conoce como identificador.
+		- Y debe cumplir con ciertas reglas:
+			+ Solo puede estar formado por letras, numeros y los simbolos $ y _
+
+		- Nota: Es buena practica declarar variables al inicio de la pagina,
+				Aunque les asignemos un valor mas tarde.
+	 -->
+	<script>
+		var nombre,
+			segundoNombre,
+			numero1,
+			numero2;
+
+
+		var nombre = 'Carlos';
+		var segundoNombre = 'Arturo';
+
+		document.write(nombre + ' ' + segundoNombre);
+
+		// Incorrecto
+		// Porque estamos sumando una cadena de texo con un numero
+		// Si queremos sumar las 2 variables tienen que contener un numero.
+		
+		//var numero1 = '7';
+		//var numero2 = 3;
+
+		// Correcto
+		var numero1 = 7;
+		var numero2 = 3;		
+
+		// var resultado = numero1 + numero2;
+
+		console.log(resultado);
+
+	</script>
+
+</body>
+</html>

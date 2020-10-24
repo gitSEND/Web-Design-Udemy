@@ -1,0 +1,46 @@
+p::first-letter {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/*  p:first-line {}
+	es lo mismo    */
+
+p::first-line {
+	background:#cf5c36;
+	line-height: 40px;
+}
+
+*::selection {
+	background:#f9a03f;
+	color: #fff;
+}
+
+*::-moz-selection {
+	background:#f9a03f;
+	color: #fff;	
+}
+
+.caja {
+	background: #f9a03f;
+	height: 150px;
+	width: 150px;
+}
+
+
+.caja::before {
+	content: 'Contenido Antes de la Caja';
+	display: block;
+	background: #3a3a3a;
+	color: #fff;
+}
+
+.caja::after {
+	content: '';
+	width: 50px;
+	height: 50px;
+	display:block;
+	background: #000;
+	position: relative;
+	left: 200px;
+}

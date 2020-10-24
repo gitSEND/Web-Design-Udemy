@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hoisting</title>
+</head>
+<body>
+	<script>
+		// Hoisting se le llama a lo que hace Javascript por defecto, que es mover automaticamente todas las declaraciones al inicio del scrtip actual o funcion.
+
+
+		// En Javascript podemos declarar una variable despues de que haya sido usada.
+
+		// Esto significa que podemos usar una variable ante sde declararla.
+		// Ejemplo: 
+
+		nombre = 'Carlos';
+		document.write(nombre);
+
+		// Javascript automaticamente va posicionar esta declaracion al inicio.
+		var nombre;
+
+// ----- ----- ----- ----- -----
+
+		// IMPORTANTE: Javascript solo posicionara al inicio las "declaraciones", no las "inicializaciones".
+
+		var nombre; // Declaracion
+		//document.write(nombre);
+
+		nombre = 'Carlos' // Inicializacion
+
+		// Es importante declarar todas nuestras variables al inicio para evitar bugs y errores.
+
+	</script>
+</body>
+</html>

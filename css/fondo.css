@@ -1,0 +1,34 @@
+/* Valores que podemos usar en las propiedades
+background: repeat | no-repeat | repeat-x | repeat-y;
+
+background-size: auto | 100px 100px | 100% 100% | cover | contain;
+
+Explicacion de valores para background-size
+	auto: Valor por defecto, el ancho y alto de la imagen.
+	ancho y alto: Ancho y alto que nosotros le especifiquemos, si solo ponemos el primer valor, el segundo sera automatico.
+	porcentaje:  Porcentaje del ancho y alto que tendra el fondo tomando en cuenta el contenedor padre.
+	cover: Ajusta el ancho de la imagen para que avarque el ancho del contenedor padre.
+	contain: Ajusta la imagen para que avarque el ancho y alto del contenedor padre.
+
+background-attachment: scroll | fixed ;
+*/
+body {
+	background:#637DDA;
+	background:url('img/bg.jpg');
+	background-repeat:no-repeat;
+	background-size:50%;
+	background-attachment: scroll;
+	background-position: 50px 200px;
+
+
+/*	background:url('img/bg.jpg') no-repeat fixed 50px 200px;
+	background-size: 500px;*/
+}
+
+/*.fondo {
+	background:url('img/bg.jpg') #000;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	width:600px;
+	height:600px;
+}*/

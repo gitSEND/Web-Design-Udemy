@@ -1,0 +1,51 @@
+body {
+	font-family: Arial, Sans-serif;
+	background: #f2f2f2;
+}
+
+.caja {
+	color: #fff;
+	background: #4fb560;
+	margin: 20px 0; 
+	padding: 20px;
+	width: 200px;
+	height:100px;
+	/*visibility:hidden;*/
+
+	overflow:auto;
+}
+
+a {
+	background: #246eb9;
+	color:#fff;
+	padding: 20px;
+	display: inline-block;
+}
+
+.contenedor {
+	background:#ccc;
+	width: 600px;
+	overflow: hidden;
+	margin: 20px 0; 
+}
+
+.izquierda {float:left;}
+.derecha {float:right;}
+
+.contenedor2 .caja {
+	width: 150px;
+	height: 150px;
+	position: relative;
+}
+
+.azul {
+	background: #009ddc;
+	z-index:1;
+}
+
+.gris {
+	background: #32021f;
+	bottom:80px;
+	left: 50px;
+	z-index:0;
+}

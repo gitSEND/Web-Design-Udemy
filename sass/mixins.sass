@@ -1,0 +1,24 @@
+@mixin colores($fondo, $articulo)
+	body
+		background: $fondo
+	.articulo
+		background: $articulo
+
+// @include colores(#ff8000, #fff)
+
+@mixin border-radius($border)
+	-webkit-border-radius: $border
+	-moz-border-radius: $border
+	-ms-border-radius: $border
+	-o-border-radius: $border
+	border-radius: $border
+
+.articulo
+	@include border-radius(20px)
+
+footer
+	@include border-radius(5px)
+
+// Funciones
+article
+	background: rgba(255,255,255, .5)
